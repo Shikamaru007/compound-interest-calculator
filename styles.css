@@ -1,0 +1,55 @@
+body {
+    font-family: poppins, sans-serif;
+    background-color: rgba(128, 128, 128, 0.208);
+}
+h1 {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 3rem;
+    text-align: center;
+}
+form {
+    background-color: white;
+    max-width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(58, 55, 55, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+input {
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid rgb(192, 192, 192);
+    border-radius: 5px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+button {
+    background-color: coral;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 600;
+    margin-top: .5rem;
+}
+button:hover {
+    background-color: rgb(226, 97, 50);
+}
+#total {
+    font-size: 2rem;
+}
+#total-amount {
+    color: coral;
+    font-weight: 600;
+}
