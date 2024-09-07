@@ -6,7 +6,7 @@ function calculate() {
     const totalAmount = document.getElementById("total-amount");
 
     let principal = Number(principalInput.value);
-    let rate = Number(rateInput.value);
+    let rate = Number(rateInput.value / 100);
     let years = Number(yearsInput.value);
 
     if(principal < 0 || isNaN(principal)){
